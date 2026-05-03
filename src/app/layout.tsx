@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
 import { config } from '@fortawesome/fontawesome-svg-core';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
 import './globals.css';
 
 config.autoAddCss = false;
@@ -34,7 +36,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

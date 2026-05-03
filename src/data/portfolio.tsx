@@ -135,7 +135,7 @@ export const portfolioItems: PortfolioItem[] = [
           Features:
         </p>
         <ul className="list-disc pl-6 text-left mb-8 space-y-2">
-          <li>Find historical endpoints via the Wayback Machine's API</li>
+          <li>Find historical endpoints via the Wayback Machine&apos;s API</li>
           <li>Find endpoints via log files</li>
           <li>Find and understand endpoints from Swagger docs</li>
           <li>Take all known endpoints from all sources, group them together by route, collect relevant IDs, and automatically infer valid input data for similar endpoints.</li>
@@ -185,7 +185,7 @@ export const portfolioItems: PortfolioItem[] = [
           was founded with the common goal of safe artificial intelligence for everyone. The project team believes that 
           AI offers great potential to improve the world and to enhance life quality for everyone. However, there are 
           clear risks associated with this advance in technology and the way it is being implemented. These risks, however, 
-          can be mitigated if they&#x27;re given appropriate attention. The project's goal is to ensure that AI is safe for people 
+          can be mitigated if they&#x27;re given appropriate attention. The project&apos;s goal is to ensure that AI is safe for people 
           of all ages, races, and backgrounds, including vulnerable and under-represented populations.
       </p>
       <p>
