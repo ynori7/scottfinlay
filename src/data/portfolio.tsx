@@ -31,6 +31,9 @@ export const portfolioItems: PortfolioItem[] = [
           you can test your skills and learn about new concepts. There are nearly one hundred challenges in a
           variety of categories ranging from code-debugging to SQL injection to electrical engineering.
         </p>
+        <p>
+          The project was discontinued in 2024.
+        </p>
       </>
     ),
   },
@@ -38,7 +41,7 @@ export const portfolioItems: PortfolioItem[] = [
     id: 'credential-detector',
     title: 'Credential Detector',
     subtitle: 'Command-Line Security Tool',
-    image: '/img/portfolio/credential-detector.jpeg',
+    image: '/img/portfolio/credential-detector.png',
     description: (
       <>
         <p>
@@ -60,32 +63,26 @@ export const portfolioItems: PortfolioItem[] = [
     ),
   },
   {
-    id: 'core-utils-lib',
-    title: 'Valhalla Core Utils Library',
-    subtitle: 'PHP Utilities Library',
-    image: '/img/portfolio/core-utils-lib1.jpg',
+    id: 'hulksmash',
+    title: 'Hulk Smash',
+    subtitle: 'A very easy-to-use library for building a custom brute-force requester for QA purposes',
+    image: '/img/portfolio/hulksmash.png',
     description: (
       <>
         <p>
-          This is a project intended to supply useful utility classes to ensure that you do not need to reinvent
-          the wheel in each of your projects. The project has utilities including: Memcached, cURL, Basic HTTP
-          Requests (for non-cURL requests), Array Utilities, Cross-site request forgery tokens, Session, PDO SQL
-          database connection, Pagination, and JSON Config Handler, and much more.
+          This is a very easy-to-use library for building a custom brute-force requester for QA purposes. This tool can be useful, for example, for performance and load testing 
+          or for testing your rate-limiter. This tool automatically adds randomized headers to anonymize the request such as X-Forwarded-For and User-Agent.
         </p>
+        <p>This tool is to be used only for benign purposes!</p>
         <p>
           You can checkout the code from my Git repository{' '}
           <a
-            href="https://bitbucket.org/ynori7/valhalla-core-utils-lib/overview"
+            href="https://github.com/ynori7/hulksmash"
             target="_blank"
             rel="noreferrer nofollow"
           >
             here
-          </a>{' '}
-          and take a look at the documentation{' '}
-          <a href="http://core-utils.halls-of-valhalla.org/" target="_blank" rel="noreferrer nofollow">
-            here
-          </a>
-          .
+          </a>.
         </p>
       </>
     ),
@@ -121,6 +118,84 @@ export const portfolioItems: PortfolioItem[] = [
         all of the novels I&apos;ve published and also a bit about my inspiration as well as news updates
         related to my writing.
       </p>
+    ),
+  },
+  {
+    id: 'draque',
+    title: 'Draque',
+    subtitle: 'An API surface intelligence tool that reconstructs real-world endpoints from logs, archives, and specs and generates high-quality test inputs for security analysis',
+    image: '/img/portfolio/draque.png',
+    description: (
+      <>
+        <p>
+          Named after Sir Francis Drake (a.k.a. El Draque), the famous privateer and explorer, this security exploration 
+          tool allows you to explore an API ecosystem for security testing purposes.
+        </p>
+        <p>
+          Features:
+        </p>
+        <ul className="list-disc pl-6 text-left mb-8 space-y-2">
+          <li>Find historical endpoints via the Wayback Machine's API</li>
+          <li>Find endpoints via log files</li>
+          <li>Find and understand endpoints from Swagger docs</li>
+          <li>Take all known endpoints from all sources, group them together by route, collect relevant IDs, and automatically infer valid input data for similar endpoints.</li>
+          <li>Analyze top routes and top parameters with examples for each.</li>
+        </ul>
+        <p>
+          You can checkout the code from my Git repository{' '}
+          <a
+            href="https://github.com/ynori7/draque"
+            target="_blank"
+            rel="noreferrer nofollow"
+          >
+            here
+          </a>.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: 'susanfinlaywrites',
+    title: 'Susan Finlay Writes',
+    subtitle: 'Fiction Author Website',
+    image: '/img/portfolio/susanfinlay.png',
+    description: (
+      <p>
+        <a href="https://www.susanfinlay.com/" target="_blank" rel="noreferrer">
+          Susan Finlay Writes
+        </a>{' '}
+        is a website with information, news, blog posts, and updates about mystery author Susan Finlay. Here you can find
+        all of the novels she&apos;s published and also a bit about her inspiration as well as news updates
+        related to her writing.
+      </p>
+    ),
+  },
+    {
+    id: 'aiheartproject',
+    title: 'AI Heart Project',
+    subtitle: 'Website for the AI HEART Project',
+    image: '/img/portfolio/aiheartproject.png',
+    description: (
+      <>
+        <p>
+          The{' '}
+          <a href="https://yasmin-fy.github.io/ai-heart-project/" target="_blank" rel="noreferrer">
+            AI HEART Project
+          </a>{' '}
+          was founded with the common goal of safe artificial intelligence for everyone. The project team believes that 
+          AI offers great potential to improve the world and to enhance life quality for everyone. However, there are 
+          clear risks associated with this advance in technology and the way it is being implemented. These risks, however, 
+          can be mitigated if they&#x27;re given appropriate attention. The project's goal is to ensure that AI is safe for people 
+          of all ages, races, and backgrounds, including vulnerable and under-represented populations.
+      </p>
+      <p>
+        My involvement in the project primarily involves technical support including building the website and providing technical 
+          expertise for the project&#x27;s various initiatives. You can check out the code for the website{' '}
+          <a href="https://github.com/Yasmin-FY/ai-heart-project" target="_blank" rel="noreferrer">
+            here
+          </a>.
+      </p>
+    </>
     ),
   },
 ];

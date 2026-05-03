@@ -16,7 +16,7 @@ export interface SocialLink {
 export const socialLinks: SocialLink[] = [
   {
     icon: faXTwitter,
-    href: 'https://twitter.com/HallsOfValhalla',
+    href: 'https://x.com/SFinlayAuthor',
     label: 'X (Twitter)',
   },
   {

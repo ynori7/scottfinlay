@@ -26,8 +26,8 @@ export default function AboutSection() {
             computer science at the{' '}
             <a href="https://twin-cities.umn.edu/" target="_blank" rel="nofollow noreferrer">
               University of Minnesota
-            </a>
-            . I enjoy writing code, writing technical articles, learning new things, and solving problems.
+            </a>{' '}
+            with an emphasis in security. I enjoy writing code, writing technical articles, learning new things, and solving problems.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

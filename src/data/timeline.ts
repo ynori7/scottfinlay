@@ -17,7 +17,7 @@ export const timelineEntries: TimelineEntry[] = [
     company: 'Oracle',
     companyUrl: 'https://www.oracle.com/industries/retail/index.html',
     description:
-      'Developed new features for Oracle\'s Retail Invoice Matching Software and developed and implemented security protocols and patches. Worked with Java Development Frameworks, e.g. Spring and Struts, and JSP to develop web applications.',
+      'Developed new features for Oracle\'s Retail Invoice Matching Software and developed. Performed static code analysis with Fortify and implemented extensive security measures and patches. Worked with Java Development Frameworks, e.g. Spring and Struts, and JSP to develop web applications.',
     image: '/img/cv/logo-oracle1.jpg',
     imageAlt: 'Oracle',
     position: 'left',
@@ -60,7 +60,7 @@ export const timelineEntries: TimelineEntry[] = [
     company: 'CHIP Digital GmbH',
     companyUrl: 'http://www.chip.de',
     description:
-      'Backend (primarily PHP) and frontend (HTML, JavaScript, CSS) development for the largest <a href="http://www.chip.de/downloads" target="_blank" rel="nofollow">download portal</a> in Germany. Completely rebuilt the downloads section, both backend and frontend. Additionally worked on Chip\'s downloader application for the desktop.',
+      'Backend (primarily PHP) and frontend (HTML, JavaScript, CSS) development for the largest download portal in Germany. Completely rebuilt the downloads section, both backend and frontend. Additionally worked on Chip\'s downloader application for the desktop. Performed security reviews and implemented numerous fixes and standards for frontend security issues.',
     image: '/img/cv/logo-chip.jpg',
     imageAlt: 'Chip',
     position: 'right',
@@ -93,18 +93,29 @@ export const timelineEntries: TimelineEntry[] = [
     company: 'Sixt SE',
     companyUrl: 'https://www.sixt.com/',
     description:
-      "Architected and implemented the backend (in Golang microservices) for Sixt's new third party API, allowing external partners to integrate with Sixt's rental products. Served as the technical lead and architect for the digital checkout initiative.",
+      "Architected and implemented the backend (in Golang microservices) for Sixt's new third party API, allowing external partners to integrate with Sixt's rental products. Regularly represented Sixt towards external business partners, serving as the technical contact person. Served as the technical lead and architect for the digital checkout initiative. Helped to drive a new security community of practice while designing and developing frameworks for common security patterns such as rate limiting. Together with other tech leads, developed organization-wide backend NFRs.",
     image: '/img/cv/logo-sixt.png',
     imageAlt: 'Sixt',
     position: 'left',
   },
   {
-    date: '2023–Now',
+    date: '2023–2026',
     title: 'Senior Staff Engineer',
     company: 'Sixt SE',
     companyUrl: 'https://www.sixt.com/',
     description:
-      "Support as architect for Sixt's new third party team, the core reservation team, and the automated pricing team. Also supported Sixt's security and platform teams.",
+      "Architect for multiple development teams. Led a new application security team, designing security best practices, performing vendor evaluations, providing frameworks, and performing security consultations and penetration tests. Designed and built in-house automated security scanners to proactively and automatically detect common security issues such as insufficient access controls and hardcoded credentials.",
+    image: '/img/cv/logo-sixt.png',
+    imageAlt: 'Sixt',
+    position: 'left',
+  },
+    {
+    date: '2026-NOW',
+    title: 'Senior Staff Software & Security Engineer',
+    company: 'Sixt SE',
+    companyUrl: 'https://www.sixt.com/',
+    description:
+      "Independently deliver and collaborate on high-impact, complex engineering efforts while improving and maintaining the software ecosystem. Actively mentor engineers and provide deep technical guidance to Directors, VPs, and the CTO through design and implementation work. Create and drive application and product security initiatives, including secure code reviews, threat modeling, vulnerability analysis, and remediation; proactively identify and mitigate risks, and participate in security incident detection and response. Implement, scale, and operate application and product security frameworks and tooling, integrating security controls into development workflows, CI/CD pipelines, and runtime environments.",
     image: '/img/cv/logo-sixt.png',
     imageAlt: 'Sixt',
     position: 'left',
