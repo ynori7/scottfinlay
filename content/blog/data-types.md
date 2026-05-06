@@ -1,6 +1,6 @@
 ---
 title: "Data Types"
-description: "A short article explaining the concepts around data types, and some of the more advanced ways to manipulate them."
+description: "Data types are a vital component in any programming language, however, most people just take them for granted and don't really understand what they are or how they work. This article attempts to introduce the concepts around data types, and some of the more advanced ways to manipulate them."
 slug: "data-types"
 date: "2011-09-04"
 shareImage: /img/blog/data-types.jpeg

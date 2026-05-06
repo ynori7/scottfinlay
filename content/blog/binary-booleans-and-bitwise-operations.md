@@ -1,6 +1,6 @@
 ---
 title: "Binary, Booleans, and Bitwise Operations"
-description: "A basic explanation of binary, Boolean logic, and bitwise operators."
+description: "Ever wonder about binary, Boolean algebra, and bitwise operations? All of computing can be broken down to the combination of these three topics, and there are many examples of their uses in the real world. In this article we'll dive into the basics of these three concepts and see how they're related and used in practical applications."
 slug: "binary-booleans-and-bitwise-operations"
 date: "2011-09-04"
 shareImage: /img/blog/binary-booleans-bitwise-operations.png

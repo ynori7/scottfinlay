@@ -1,6 +1,6 @@
 ---
 title: "Functional Options Pattern in Go"
-description: "An overview of the Functional Options Pattern in Golang, which solves one of the most common issues when developing services in Go."
+description: "One of the many issues you'll encounter as a Golang developer is trying to make parameters to a function optional. In Go, the Functional Options Pattern, is a common solution to this problem. Here's how it works."
 slug: "functional-options-pattern-in-go"
 date: "2016-12-29"
 shareImage: /img/blog/gopher.png

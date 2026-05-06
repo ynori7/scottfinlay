@@ -1,6 +1,6 @@
 ---
 title: "Cross-Site Request Forgery: Demystified"
-description: "CSRF is amongst the most common vulnerabilities in websites, yet many developers have difficulty understanding the concept on how to prevent the vulnerability."
+description: "CSRF is amongst the most common vulnerabilities in websites, yet many developers have difficulty understanding the concept on how to prevent the vulnerability. Here we will attempt to clarify the concept and explain some of the potential solutions and outline the ones which work and the ones which don't."
 slug: "cross-site-request-forgery-demystified"
 date: "2014-01-26"
 shareImage: /img/blog/csrf_demystified.png
