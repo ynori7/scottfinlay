@@ -33,7 +33,7 @@ This led me to eventually build a more generic tool called [draque](https://gith
 
 ![draque](/img/portfolio/draque.png)
 
-This tool works in the following way: it collects routes from swagger docs, then extracts and groups the URLs from logs. If it knows the route from the swagger docs, it can directly identify the endpoint and just collects the route parameters as example inputs. If it doesn't know the route from the docs, it attempts to identify the dynamic parts of the URL with pattern matching. If we have routes in the swagger docs which didnt appear in any logs, it attempts to infer valid inputs based on what it knows from the URLs it did find.
+This tool works in the following way: it collects routes from swagger docs, then extracts and groups the URLs from logs. If it knows the route from the swagger docs, it can directly identify the endpoint and just collects the route parameters as example inputs. If it doesn't know the route from the docs, it attempts to identify the dynamic parts of the URL with pattern matching. If we have routes in the swagger docs which didn't appear in any logs, it attempts to infer valid inputs based on what it knows from the URLs it did find.
 
 This tool can be used as a standalone CLI tool for analysis, but can also be used as a library for building tools such as the one I was working on for detecting IDORs and BOLAs. Here is a very minimalistic example demonstrating how draque could be used as a basis for such a scanner:
 
